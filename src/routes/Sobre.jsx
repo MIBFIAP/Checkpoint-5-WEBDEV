@@ -2,6 +2,12 @@ import Logo from '../assets/Logo1.png';
 import "../estilos/Sobre.css"
 import restaurante from '../assets/restaurante.jpg'
 
+import arthur from '../assets/arthur.jpg'
+import miguel from '../assets/miguel.jpg'
+import joao from '../assets/joao.jpg'
+import sorriso from '../assets/sorriso.jpg'
+import marcio from '../assets/marcio.jpg'
+
 function Sobre(){
     return(
         <>
@@ -22,6 +28,51 @@ function Sobre(){
                 </p>
             </div>
         </div>
+            
+        <h1 className='sobre_titulo'>Equipe</h1>
+            <div className="sobre_desenvolvedores">
+                
+
+                <div className="nome_desenvolvedores">
+                    <h1 className='nome'>Arthur</h1>
+                    <h2 className='funcao'>CEO</h2>
+                    <div className="img_conteudo">
+                        <img className="img_perfil" src={arthur} alt='arthur'></img>
+                    </div>
+                </div>
+
+                <div className="nome_desenvolvedores"> 
+                    <h1 className='nome'>Marcio</h1>
+                    <h2 className='funcao'>Analista de dados</h2>
+                    <div className="img_conteudo">
+                        <img className="img_perfil" src={marcio} alt='marcio'></img>
+                    </div>
+                </div>
+
+                <div className="nome_desenvolvedores">
+                    <h1 className='nome'>Joao</h1>
+                    <h2 className='funcao'>Designer</h2>
+                    <div className="img_conteudo">
+                        <img className="img_perfil" src={joao} alt='joao'></img>
+                    </div>
+                </div>
+
+                <div className="nome_desenvolvedores">
+                    <h1 className='nome'>Sorriso</h1>
+                    <h2 className='funcao'>Security</h2>
+                    <div className="img_conteudo">
+                        <img className="img_perfil" src={sorriso} alt='sorriso'></img>
+                    </div>
+                </div>
+
+                <div className="nome_desenvolvedores">
+                    <h1 className='nome'>Miguel</h1>
+                    <h2 className='funcao'>C#</h2>
+                    <div className="img_conteudo">
+                        <img className="img_perfil" src={miguel} alt='miguel'></img>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

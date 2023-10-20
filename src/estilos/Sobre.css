@@ -17,3 +17,34 @@
     font-weight: 400;
 
   }
+
+.sobre_desenvolvedores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+.nome_desenvolvedores{
+    margin: 2rem;
+}
+
+.sobre_titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+}
+
+.funcao{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.img_perfil {
+    border-radius: 10px;
+}
