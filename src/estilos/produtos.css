@@ -47,4 +47,7 @@ th ,td{
     .categoria{
         display: none;
     }
+    .editar {
+        flex-direction: row;
+    }
 }
