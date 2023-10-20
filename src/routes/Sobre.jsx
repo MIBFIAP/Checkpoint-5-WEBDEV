@@ -13,7 +13,7 @@ function Sobre(){
         <>
           <div className="logo_sobre">
             <img src={Logo} alt="Logo"></img>
-            <h1>La Morte</h1>
+            <h1>La Muerte</h1>
           </div>
 
           <div className="mexico">

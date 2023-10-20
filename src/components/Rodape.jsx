@@ -10,7 +10,7 @@ function Ropade() {
     <footer>
       <div className="footer_content">
         <div className="footer_contacts">
-          <h1>La Morte</h1>
+          <h1>La Muerte</h1>
 
           <div className="footer_social_media">
             <a href='#' className='footer-link' id='instagram'>
@@ -42,7 +42,7 @@ function Ropade() {
 
         <ul className='footer-list'>
           <li>
-            <h3>Product</h3>
+            <h3>México</h3>
           </li>
           <li>
             <a href='#' className='footer-link'>App</a>
@@ -56,10 +56,10 @@ function Ropade() {
         </ul>
 
         <div className="footer_subscribe">
-          <h3>Subscribe</h3>
+          <h3>Inscreva-se</h3>
 
           <p>
-            Enter your e-mail to get notified about our new solutions
+            Insira seu e-mail para receber notificações
           </p>
 
           <div className="input_group">

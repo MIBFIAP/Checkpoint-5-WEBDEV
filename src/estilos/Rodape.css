@@ -125,6 +125,10 @@ footer {
     font-weight: 100;
 }
 
+.input_group{
+    color: black;
+}
+
 @media screen and (max-width: 768px) {
     .footer_content {
         grid-template-columns: repeat(2 , 2fr);

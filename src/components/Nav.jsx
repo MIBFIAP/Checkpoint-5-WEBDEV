@@ -18,7 +18,7 @@ function Nav() {
         <nav className="nav-bar">
           <div className="logo">
             <img src={Logo} alt="Logo"></img>
-            <h1>La Morte</h1>
+            <h1>La Muerte</h1>
           </div>
 
           <div className="nav-list">
